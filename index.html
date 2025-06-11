@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RADIOHEAD - Site Officiel</title>
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-out;
+    }
+
+    /* Base */
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(180deg, #e0f7fa 0%, #90a4ae 40%, #263238 100%);
+      color: #f0f0f0;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: #cfd8dc;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000;
+      align-items: center;
+    }
+
+    header .logo img {
+      height: 40px;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    header nav a.cta {
+      border: 2px solid #000;
+      padding: 10px 20px;
+    }
+
+    h1, h2 {
+      font-size: 3em;
+      margin: 0.5em 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+
+    h2 {
+      color: #00bcd4;
+    }
+
+    p, ul {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1em;
+      line-height: 1.8em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5em 0;
+    }
+
+    section {
+      padding: 60px 20px;
+      background: rgba(38, 50, 56, 0.5);
+      margin-bottom: 40px;
+      border-top: 2px solid #00bcd4;
+      animation: fadeIn 1s ease;
+    }
+
+    .section-image {
+      margin: 60px auto;
+      max-width: 1000px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .section-image img {
+      width: 100%;
+      border: 8px solid #cfd8dc;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.3);
+    }
+
+    .btn-shop {
+      display: inline-block;
+      margin-top: 15px;
+      background: #00bcd4;
+      color: #000;
+      padding: 12px 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: 2px solid #000;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-shop:hover {
+      background: #263238;
+      color: #fff;
+      border-color: #00bcd4;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #000;
+      color: #cfd8dc;
+      text-align: center;
+      padding: 40px;
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #00bcd4;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://w7.pngwing.com/pngs/639/556/png-transparent-radiohead-kid-a-logo-music-radiohead-logo-text-logo-monochrome-thumbnail.png" />
+    </div>
+    <nav>
+      <a href="#biographie">Biographie</a>
+      <a href="#discographie">Discographie</a>
+      <a href="#anecdotes">Anecdotes</a>
+      <a href="#recommandations">Nos Recos</a>
+      <a href="#concerts">Concerts</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#mentions">Mentions</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1 class="fade-in">RADIOHEAD</h1>
+
+    <section id="biographie" class="fade-in">
+      <h2>Biographie</h2>
+      <p>
+        Radiohead est un groupe de rock alternatif britannique formé en 1985 à Abingdon. Composé de Thom Yorke, Jonny Greenwood, Colin Greenwood, Ed O'Brien et Phil Selway, le groupe est reconnu pour son innovation musicale et ses textes introspectifs.
+        Leur album <em>In Rainbows</em> a révolutionné l'industrie musicale avec une sortie en "pay-what-you-want".
+      </p>
+    </section>
+
+    <div class="section-image">
+      <img src="https://m.media-amazon.com/images/I/512lMtk9P5L._AC_SL1100_.jpg"/>
+    </div>
+
+    <section id="discographie" class="fade-in">
+      <h2>Discographie</h2>
+      <ul>
+        <li><strong>Pablo Honey</strong> (1993)</li>
+        <li><strong>The Bends</strong> (1995)</li>
+        <li><strong>OK Computer</strong> (1997)</li>
+        <li><strong>Kid A</strong> (2000)</li>
+        <li><strong>Amnesiac</strong> (2001)</li>
+        <li><strong>Hail to the Thief</strong> (2003)</li>
+        <li><strong>In Rainbows</strong> (2007)</li>
+        <li><strong>The King of Limbs</strong> (2011)</li>
+        <li><strong>A Moon Shaped Pool</strong> (2016)</li>
+      </ul>
+    </section>
+
+    <div class="section-image">
+      <img src="https://i.redd.it/gtlzuw07m2v71.jpg"/>
+    </div>
+
+    <section id="anecdotes" class="fade-in">
+      <h2>Anecdotes</h2>
+      <ul>
+        <li>Le clip de "Karma Police" est inspiré des films d’horreur des années 70.</li>
+        <li>Radiohead a refusé 10M$ pour l’utilisation de "Creep" en pub.</li>
+        <li>Thom Yorke a composé pour le film "Suspiria".</li>
+      </ul>
+    </section>
+
+    <div class="section-image">
+      <img src="https://media.npr.org/assets/img/2021/12/09/radiohead-comp-x-holborn-studios-2000-c-tom-sheehan-1-scaled_custom-678559e59793cd8f5951992941c2a6218bb1057a.jpg"/>
+    </div>
+
+    <section id="recommandations" class="fade-in">
+      <h2>Nos Recos rien que pour toi</h2>
+      <ul>
+        <li>Massive Attack</li>
+        <li>Portishead</li>
+        <li>Wilco</li>
+        <li>Sigur Rós</li>
+        <li>Interpol</li>
+      </ul>
+    </section>
+
+    <div class="section-image">
+      <img src="https://i.scdn.co/image/ab6761610000e5eba03696716c9ee605006047fd"/>
+    </div>
+
+    <section id="concerts" class="fade-in">
+      <h2>Concerts à venir</h2>
+      <ul>
+        <li>12 Juillet 2025 - Rock en Seine, Paris</li>
+        <li>25 Août 2025 - Glastonbury, UK</li>
+        <li>3 Octobre 2025 - New York, MSG</li>
+      </ul>
+    </section>
+
+    <div class="section-image">
+      <img src="https://www.rollingstone.fr/wp-content/uploads/2025/03/Radiohead-Thom-Yorke-1995.jpg" alt="Foule concert" />
+    </div>
+
+    <section id="boutique" class="fade-in">
+      <h2>Boutique en Ligne</h2>
+      <p>Découvrez les vinyles, T-shirts, posters et éditions limitées de Radiohead.</p>
+      <a href="https://www.radiohead.com/store" target="_blank" class="btn-shop">Visitez la Boutique</a>
+    </section>
+
+  </main>
+
+  <footer id="mentions">
+    <p>© 2025 Radiohead. Tous droits réservés. <a href="#">Mentions légales</a> – Site non officiel à but éducatif.</p>
+  </footer>
+
+</body>
+</html>
